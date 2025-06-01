@@ -1,0 +1,85 @@
+mylist=[]
+n=int(input("eneter any number:"))
+for x in range (n):
+    num=int(input("enter a number:"))
+    mylist.append(num)
+print("my updated list is:",mylist)
+
+sample input and output:
+eneter any number:4
+enter a number:6
+enter a number:5
+enter a number:7
+enter a number:8
+my updated list is: [6, 5, 7, 8]
+
+l=[10,20,30,"milky",(10+20j),True,1]
+print(l[3])
+print(l[-2])
+print(l[1:4])
+print(l)
+l.remove(30)
+print(l)
+
+sample input and output:
+milky
+True
+[20, 30, 'milky']
+[10, 20, 30, 'milky', (10+20j), True, 1]
+[10, 20, 'milky', (10+20j), True, 1]
+
+l=[10,20,30,40,60,True,1]
+print(len(l))
+print(l)
+print(max(l))
+print(min(l))
+
+sample input and output:
+7
+[10, 20, 30, 40, 60, True, 1]
+60
+True
+
+mylist = [8,2,3,0,7]
+sum = 0
+for i in mylist:
+    sum = sum+i
+print("The sum is:",sum)
+
+sample input and output:
+The sum is: 20
+
+
+s = input("Enter the string: ")
+print(s.split()
+
+sample input and output:
+Enter the string: python is easy to develop
+['python', 'is', 'easy', 'to', 'develop']
+
+
+n = int(input("Enter the value of n: "))                                                                     
+mylist = []
+for i in range(n):
+    num = int(input("enter a number:"))
+    mylist.append(num)
+print("Even numbers are")
+print("[", end="")
+for num in mylist:
+    if num % 2 == 0:
+        print(num, end=", ")
+print("]")
+
+
+sample input and output:
+Enter the value of n: 5
+enter a number:7
+enter a number:8
+enter a number:4
+enter a number:9
+enter a number:77
+Even numbers are
+[8, 4, ]
+
+
+
